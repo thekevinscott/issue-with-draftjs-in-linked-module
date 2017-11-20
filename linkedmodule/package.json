@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "link-deps": "npm link ../mainapp/node_modules/react && npm link ../mainapp/node_modules/react-dom",
-    "build": "rm -rf dist && webpack",
+    "dev": "rm -rf dist && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
